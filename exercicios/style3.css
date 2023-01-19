@@ -4,3 +4,6 @@ h1, p{
 li:hover{
     background-color: brown;
 }
+li:active{
+    background-color: blue;
+}

@@ -7,3 +7,6 @@ li:hover{
 li:active{
     background-color: blue;
 }
+li{
+    list-style-type: style none;;
+}

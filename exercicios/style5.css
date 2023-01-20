@@ -19,3 +19,14 @@ li{
 li em{
     font: weight 700px; ;
 }
+
+.proga li:not(:nth-child(n + 4)) {
+    color: blue;
+}
+.duvida{
+    background-color: pink;
+}
+.aliados{
+    font-weight: 700;
+}
+

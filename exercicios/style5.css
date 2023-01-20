@@ -26,7 +26,22 @@ li em{
 .duvida{
     background-color: pink;
 }
-.aliados{
+.aliados li:hover{
     font-weight: 700;
+}
+.aliados li:hover [href*='stackoverflow']{
+    color: orange;
+}
+.aliados li:hover [href*='w3schools']{
+    color:green;
+}
+.aliados li:hover [href*='mdn']{
+    color: black;
+}
+.aliados li:hover [href*='devdocs']{
+    color: yellow;
+}
+.aliados li:hover [href*='trybe']{
+    color: green;
 }
 

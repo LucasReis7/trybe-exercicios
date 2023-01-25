@@ -43,4 +43,17 @@ for(let index = 0;index < numbers.length; index += 1){
         cont += 1
     }
 }
-console.log('A quantidade de numeros impares dentro do array é: ' + cont);
+if ( cont === 0){
+    console.log('Nenhum valor impar encontrado');
+} else {
+    console.log('A quantidade de numeros impares dentro do array é: ' + cont); 
+}
+
+
+let menor = numbers[0];
+for(let index = 1;index < numbers.length; index += 1){
+    if (numbers[index] < menor){
+        menor = numbers[index];
+    }
+}
+console.log('O menor numero do array é: ' + menor);

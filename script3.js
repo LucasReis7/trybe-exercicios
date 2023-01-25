@@ -25,3 +25,13 @@ if (media > 20){
 }else{
     console.log('Valor igual ou menor que vinte');
 }
+
+
+let maior = 0;
+for(let index = 0;index < numbers.length; index += 1){
+    if (numbers[index] >= maior){
+        maior = numbers[index]
+    }
+    
+}
+console.log('O maior numero dentro do array é: ' + maior);

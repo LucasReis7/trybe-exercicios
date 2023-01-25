@@ -18,3 +18,10 @@ for (let index = 0; index < numbers.length; index += 1){
 }
 media = soma/numbers.length
 console .log('A media do array é: '+ media);
+
+
+if (media > 20){
+    console.log('O valor é maior que 20');
+}else{
+    console.log('Valor igual ou menor que vinte');
+}

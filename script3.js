@@ -57,3 +57,10 @@ for(let index = 1;index < numbers.length; index += 1){
     }
 }
 console.log('O menor numero do array é: ' + menor);
+
+
+let numb = [];
+for(let index = 1;index <= 25; index += 1){
+    numb.push(index);
+}
+console.log(numb);

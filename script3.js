@@ -35,3 +35,12 @@ for(let index = 0;index < numbers.length; index += 1){
     
 }
 console.log('O maior numero dentro do array é: ' + maior);
+
+
+let cont = 0;
+for(let index = 0;index < numbers.length; index += 1){
+    if( numbers[index] % 2 != 0) {
+        cont += 1
+    }
+}
+console.log('A quantidade de numeros impares dentro do array é: ' + cont);

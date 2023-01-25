@@ -64,3 +64,8 @@ for(let index = 1;index <= 25; index += 1){
     numb.push(index);
 }
 console.log(numb);
+
+
+for(let index = 0;index < numb.length; index += 1){
+    console.log(numb [index]/2);
+}

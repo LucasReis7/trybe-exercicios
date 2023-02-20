@@ -37,6 +37,21 @@
         const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 
         const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
+
+        const irmaoElemntoOndeVoceEsta = document.createElement('section');
+        irmaoElemntoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+        pai.appendChild(irmaoElemntoOndeVoceEsta);
+
+        const filhoOndeVoceEsta = document.createElement('section');
+        filhoOndeVoceEsta.id = 'filhoOndeVoceEsta';
+        elementoOndeVoceEsta.appendChild(filhoOndeVoceEsta);
+
+        const filhoPrimeiroFilhoDoFilho = document.createElement('section');
+        filhoPrimeiroFilhoDoFilho.id = 'filhoPrimeiroFilhoDoFilho';
+        primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
+
+        const terceiroFilho3 = filhoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+        console.log(terceiroFilho3);
       </script>
 </body>
 </html>

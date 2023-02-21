@@ -59,7 +59,49 @@
     <script>
       const elementH1 = document.createElement('h1');
       elementH1.innerText = 'TrybeTrip - Agência de Viagens';
-      document.appendChild(elementH1);
+      document.body.appendChild(elementH1);
+
+      const elementMain = document.createElement('main');
+      elementMain.className = 'main-content';
+      document.body.appendChild(elementMain);
+
+      const elementSection = document.createElement('section');
+      elementSection.className = 'center-content';
+      elementMain.appendChild(elementSection);
+
+      const elementP = document.createElement('p');
+      elementP.innerText = 'será que agora vai mané';
+      elementSection.appendChild(elementP);
+      
+      const left = document.createElement('section');
+      left.className = 'left-content';
+      elementMain.appendChild(left);
+
+      const right = document.createElement('section');
+      right.className = 'right-content';
+      elementMain.appendChild(right);
+
+      const imagem = document.createElement('img');
+      imagem.className = 'small-image';
+      imagem.src = 'https://picsum.photos/200';
+      left.appendChild(imagem);
+
+
+      const listU = document.createElement('ul');
+      right.appendChild(listU);
+      const arrayN = ['Um','Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']; 
+      for (let index = 0; index < arrayN.length; index += 1) {
+        const elementLi = document.createElement('li');
+        elementLi.innerHTML = arrayN[index];
+        listU.appendChild(elementLi);     
+      }
+      
+      for (let index = 1; index <= 3; index += 1) {
+        const elementH3 = document.createElement('h3');
+        elementH3.innerHTML = 'Eita' + index;
+        elementMain.appendChild(elementH3);
+      }
     </script>
   </body>
 </html>

@@ -101,7 +101,24 @@
         const elementH3 = document.createElement('h3');
         elementH3.innerHTML = 'Eita' + index;
         elementMain.appendChild(elementH3);
+        elementH3.className = 'description';
       }
+
+      elementH1.className = 'title';
+
+      const removeSec = document.getElementsByClassName('left-content')[0];
+      elementMain.removeChild(removeSec);
+
+      const center = document.getElementsByClassName('right-content')[0];
+      center.style.marginRight = 'auto';
+      //duvida
+      const backColor = document.getElementsByClassName('center-content')[0];
+      backColor.parentNode.style.backgroundColor = 'green';
+
+      const remoLi = document.getElementsByTagName('ul')[0];
+      remoLi.lastChild.remove();
+      remoLi.lastChild.remove();
+      
     </script>
   </body>
 </html>

@@ -14,6 +14,13 @@ window.onload = () => {
     let selecSize =document.querySelector('input[name="font-size"]');
     selecSize.addEventListener('change', function () {
         document.querySelector('p').style.fontSize = `${selecSize.value}px`
+        console.log(selecSize);
+    })
+
+    let selectHeight = document.querySelector('input[name="font-height"]');
+    selectHeight.addEventListener('change', function() {
+        document.querySelector('p').style.lineHeight = `${selectHeight.value}px`
+        console.log(selectHeight);
     })
 
 

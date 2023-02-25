@@ -11,6 +11,11 @@ window.onload = () => {
         document.body.style.color = selectedFont.value
     })
 
+    let selecSize =document.querySelector('input[name="font-size"]');
+    selecSize.addEventListener('change', function () {
+        document.querySelector('p').style.fontSize = `${selecSize.value}px`
+    })
+
 
 
 

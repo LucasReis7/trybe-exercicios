@@ -1,0 +1,20 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "description": "Contém todas as atividades desenvolvidas por mim durante minha tragetória na Trybe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasReis7/trybe-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasReis7/trybe-exercicios/issues"
+  },
+  "homepage": "https://github.com/LucasReis7/trybe-exercicios#readme"
+}

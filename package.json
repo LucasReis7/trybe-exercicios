@@ -4,17 +4,25 @@
   "description": "Contém todas as atividades desenvolvidas por mim durante minha tragetória na Trybe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LucasReis7/trybe-exercicios.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "eu mesmo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LucasReis7/trybe-exercicios/issues"
   },
-  "homepage": "https://github.com/LucasReis7/trybe-exercicios#readme"
+  "homepage": "https://github.com/LucasReis7/trybe-exercicios#readme",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "validator": "^13.9.0",
+    "vite": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
 }

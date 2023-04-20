@@ -1,20 +1,18 @@
 // Vamos importar nossa biblioteca
 import validator from 'validator';
-import "./style.css";
+import './style.css';
 // Aqui, vamos selecionar, pelos ids, os campos em nossa página
 const campoDeTexto = document.querySelector('#value');
 const button = document.querySelector('#button');
 const seletor = document.querySelector('#option');
 const textoDeSaida = document.querySelector('#answer');
 
-const UUID_VERSION = 4
+const UUID_VERSION = 4;
 
 button.addEventListener('click', (event) => {
-  // Vamos usar o preventDefault() para evitar que, ao
-  // clicar no botão, ele recarregue a página
-  event.preventDefault();
+// Vamos usar o preventDefault() para evitar que, ao  // clicar no botão, ele recarregue a página  event.preventDefault();
 
-  // Aqui, criamos um objeto cujas chaves são os tipos a
+// Aqui, criamos um objeto cujas chaves são os tipos a
   // serem validados. Por exemplo, a chave CPF valida se
   // o campoDeTexto.value é um CPF.
   const campos = {
